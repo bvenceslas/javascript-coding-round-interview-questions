@@ -15,15 +15,11 @@ let temp
 let right = myArray.length - 1;
 
 for (left = 0; left < (myArray.length - 3); left++) {
-    console.log('pushing :>> ', myArray[left]);
     firstArray.push(myArray[left]);
 }
 
 for (left = POSITION; left < (myArray.length); left++) {
-    console.log('pushing :>> ', myArray[left]);
     secondArray.push(myArray[left]);
 }
 
-
 const result = secondArray.concat(firstArray);
-console.log('result :>> ', result);
