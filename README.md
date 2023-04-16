@@ -4,6 +4,10 @@
 
 This repository has hundreds of coding round interview questions made in JavaScript
 
+## License
+
+This project is [MIT licensed](LICENSE).
+
 ## Author
 
 👤 Venceslas Burongu
@@ -19,7 +23,3 @@ Contributions, issues and feature requests are welcome!!!
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## License
-
-Nest is [MIT licensed](LICENSE).
