@@ -36,3 +36,22 @@ Only one valid answer exists.
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 `;
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function (nums, target) {
+  const matchedTarget = [];
+
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = 1; j < nums.length; j++) {
+      if (i !== j && nums[i] + nums[j] === target) {
+        return [i, j];
+      }
+    }
+  }
+
+  return null;
+};
